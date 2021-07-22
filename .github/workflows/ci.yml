@@ -22,4 +22,7 @@ jobs:
       run: go build -v ./...
 
     - name: Test
-      run: gocov test | gocov-xml > coverage.xml
+      run:
+        go get github.com/axw/gocov/gocov
+        go get github.com/AlekSi/gocov-xml
+        gocov test | gocov-xml > coverage.xml
