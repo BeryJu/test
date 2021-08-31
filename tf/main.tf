@@ -1,4 +1,12 @@
 terraform {
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "beryjuorg"
+
+    workspaces {
+      name = "test"
+    }
+  }
   required_providers {
     http = {
       source = "hashicorp/http"
