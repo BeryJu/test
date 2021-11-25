@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "name": "beryjuorg",
+  "version": "0.1.0"
+}
