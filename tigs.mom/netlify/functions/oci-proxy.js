@@ -1,5 +1,5 @@
 const config = {
-    namespace: "beryju/acme-for-appliances",
+    namespace: "beryju/tigs.mom-",
     // Settings for GHCR
     registryTokenEndpoint: "https://ghcr.io/token",
     registryService: "ghcr.io",

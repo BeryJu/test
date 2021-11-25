@@ -6,6 +6,6 @@
 
 [[redirects]]
   from = "/v2/*"
-  to = "https://ghcr.io/v2/beryju/:splat"
+  to = "https://ghcr.io/v2/beryju/tigs.mom-:splat"
   status = 200
   force = true
